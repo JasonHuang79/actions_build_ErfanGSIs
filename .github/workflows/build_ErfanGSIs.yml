@@ -16,12 +16,12 @@ on:
 env:
   ROM_URL: https://bigota.d.miui.com/V13.0.10.0.SLJCNXM/miui_INGRES_V13.0.10.0.SLJCNXM_8fca36d0eb_12.0.zip
   ROM_NAME: Generic Pixel
-  BUILD_TYPE: a
+  BUILD_TYPE: Aonly
   TZ: Asia/Shanghai
 
 jobs:
   build:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-22.04
     if: github.event.repository.owner.id == github.event.sender.id
 
     steps:
