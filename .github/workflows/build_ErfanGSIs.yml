@@ -15,8 +15,8 @@ on:
     
 env:
   ROM_URL: https://bigota.d.miui.com/V13.0.10.0.SLJCNXM/miui_INGRES_V13.0.10.0.SLJCNXM_8fca36d0eb_12.0.zip
-  ROM_NAME: MIUI
-  BUILD_TYPE: ab
+  ROM_NAME: Generic Pixel
+  BUILD_TYPE: a
   TZ: Asia/Shanghai
 
 jobs:
