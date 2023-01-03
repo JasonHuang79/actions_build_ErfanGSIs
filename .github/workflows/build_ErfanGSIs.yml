@@ -14,9 +14,9 @@ on:
     types: [started]
     
 env:
-  ROM_URL: http://bigota.d.miui.com/20.4.27/miui_MIMIX3_20.4.27_8f7879221b_10.0.zip
+  ROM_URL: http://39.185.118.98:21527/xdispatch78e7597b6f06ed7c/bigota.d.miui.com/V12.5.11.0.RCZCNXM/dandelion_c3l2_images_V12.5.11.0.RCZCNXM_20220906.0000.00_11.0_cn_chinatelecom_4674acdb95.tgz?bsreqid=24cc2423de2ca79b5d19d60b02c25e78
   ROM_NAME: MIUI
-  BUILD_TYPE: ab
+  BUILD_TYPE: aonly
   TZ: Asia/Shanghai
 
 jobs:
